@@ -1,5 +1,4 @@
 $(document).ready (function() {
     //console.log("hello")
-    $("#text").addClass("float-right");
-    $(".float-right").attr("float", "right")
+    $("#text").attr("class", "float-right"); //in attr first parameter is class attribution and second is float(properties) and Right(value);
 }) 
