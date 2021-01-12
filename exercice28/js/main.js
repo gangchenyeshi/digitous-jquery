@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".btn").click(function [
-        $("input").val()
-    ])
+    $(".btn").click(function() {
+        console.log( $("input").val());
+    })
 })

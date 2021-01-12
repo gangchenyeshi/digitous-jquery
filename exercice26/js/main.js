@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $(".btn").click(function () {
-        $("input").animate( "class", "is-invalid")
+        $("input").addClass( "is-invalid");
     })
 })
