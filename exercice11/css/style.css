@@ -1,0 +1,9 @@
+.coloredSquare {
+    background-color : blue !important;
+}
+
+@media(min-width:900px) {
+    .coloredSquare {
+        background-color : red !important;
+    }
+}
