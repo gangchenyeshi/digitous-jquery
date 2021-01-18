@@ -1,7 +1,8 @@
 $(document).ready(function() {
-    //generateSudoku();
+    $(".generatebtn").click(function() {
+        generateSudoku();    
 
-    var sudokuHtml = '<div class="container">'; // create a div in Html and class = "container"
+        var sudokuHtml = '<div class="container">'; // create a div in Html and class = "container"
     
     for(var i = 0; i < 9; i ++) {
         sudokuHtml += '<div id="row${i}" class = "row">';// create a div in Html and class = "row"
@@ -15,4 +16,8 @@ $(document).ready(function() {
     //sudoku += '</div>'; // div class= container is closed
 
     $("#sudoku").html(sudokuHtml);
+    })
+    
+
+    
 });

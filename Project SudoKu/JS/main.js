@@ -65,19 +65,20 @@ var sudoku = [
 
 function generateSudoku() {
   var randomLine = Math.floor(Math.random() * allSudoku.length);
-  console.log(allSudoku[randomLine]);
+  //console.log(allSudoku[randomLine]);
 
   var index = 0;
   for (var i = 0; i < 9; i++) {
     for (var j = 0; j < 9; j++) {
       sudoku[i][j] = allSudoku[randomLine][index];
       index++;
+
        if(sudoku[i][j] === '.'){
          sudoku[i][j]= '';
        }
     }
   }
 
-  console.log(sudoku);
+  //console.log(sudoku);
 }
 generateSudoku();
