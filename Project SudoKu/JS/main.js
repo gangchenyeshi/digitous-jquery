@@ -75,6 +75,7 @@ function generateSudoku() {
 
        if(sudoku[i][j] === '.'){
          sudoku[i][j]= '';
+         
        }
     }
   }
